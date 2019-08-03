@@ -1,0 +1,11 @@
+pt-BR:
+  activerecord:
+    models:
+      menu_locale:
+        one: Menu Idioma
+        other: Menus Idiomas
+    attributes:
+      menu_locale:
+        menu: Menu
+        content_locale: Idioma
+        name: Nome

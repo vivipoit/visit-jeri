@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_03_221507) do
+ActiveRecord::Schema.define(version: 2019_08_03_224931) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -48,4 +48,22 @@ ActiveRecord::Schema.define(version: 2019_08_03_221507) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "menu_locales", force: :cascade do |t|
+    t.bigint "menu_id"
+    t.bigint "content_locale_id"
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["content_locale_id"], name: "index_menu_locales_on_content_locale_id"
+    t.index ["menu_id"], name: "index_menu_locales_on_menu_id"
+  end
+
+  create_table "menus", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "menu_locales", "content_locales"
+  add_foreign_key "menu_locales", "menus"
 end
