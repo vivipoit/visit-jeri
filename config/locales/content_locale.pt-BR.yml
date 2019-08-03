@@ -1,0 +1,10 @@
+pt-BR:
+  activerecord:
+    models:
+      content_locale:
+        one: Idioma
+        other: Idiomas
+    attributes:
+      content_locale:
+        name: Nome
+        hreflang_code: Código hreflang

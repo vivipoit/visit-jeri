@@ -1,0 +1,2 @@
+class ContentLocale < ApplicationRecord
+end
