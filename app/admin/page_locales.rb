@@ -24,7 +24,7 @@ ActiveAdmin.register PageLocale do
       f.input :menu_title
       f.input :page_title
       f.input :link
-      f.input :content
+      f.input :content, as: :ckeditor
     end
     f.actions
   end

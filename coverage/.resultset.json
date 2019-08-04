@@ -329,6 +329,49 @@
         0,
         0
       ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/models/ckeditor/attachment_file.rb": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/models/ckeditor/asset.rb": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/models/ckeditor/picture.rb": [
+        null,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/ViviPoit/Documents/visit-jeri/app/jobs/application_job.rb": [
         0,
         0
@@ -346,6 +389,6 @@
         0
       ]
     },
-    "timestamp": 1564879566
+    "timestamp": 1564883618
   }
 }
