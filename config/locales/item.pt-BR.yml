@@ -1,0 +1,10 @@
+pt-BR:
+  activerecord:
+    models:
+      item:
+        one: Item
+        other: Itens
+    attributes:
+      item:
+        page: Página
+        name: Nome

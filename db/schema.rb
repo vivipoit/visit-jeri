@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_04_010135) do
+ActiveRecord::Schema.define(version: 2019_08_04_021723) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -59,6 +59,28 @@ ActiveRecord::Schema.define(version: 2019_08_04_010135) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "item_locales", force: :cascade do |t|
+    t.bigint "item_id"
+    t.bigint "content_locale_id"
+    t.string "list_title"
+    t.string "list_summary"
+    t.string "link"
+    t.string "page_title"
+    t.text "page_content"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["content_locale_id"], name: "index_item_locales_on_content_locale_id"
+    t.index ["item_id"], name: "index_item_locales_on_item_id"
+  end
+
+  create_table "items", force: :cascade do |t|
+    t.bigint "page_id"
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["page_id"], name: "index_items_on_page_id"
+  end
+
   create_table "menu_locales", force: :cascade do |t|
     t.bigint "menu_id"
     t.bigint "content_locale_id"
@@ -96,6 +118,9 @@ ActiveRecord::Schema.define(version: 2019_08_04_010135) do
     t.index ["menu_id"], name: "index_pages_on_menu_id"
   end
 
+  add_foreign_key "item_locales", "content_locales"
+  add_foreign_key "item_locales", "items"
+  add_foreign_key "items", "pages"
   add_foreign_key "menu_locales", "content_locales"
   add_foreign_key "menu_locales", "menus"
   add_foreign_key "page_locales", "content_locales"

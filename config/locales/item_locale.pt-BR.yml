@@ -1,0 +1,15 @@
+pt-BR:
+  activerecord:
+    models:
+      item_locale:
+        one: Item Idioma
+        other: Itens Idiomas
+    attributes:
+      item_locale:
+        item: Item
+        content_locale: Idioma
+        list_title: Título na Lista
+        list_summary: Resumo na Lista
+        link: Link
+        page_title: Título na Página
+        page_content: Conteúdo
