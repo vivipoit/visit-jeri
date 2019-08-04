@@ -1,0 +1,10 @@
+pt-BR:
+  activerecord:
+    models:
+      page:
+        one: Página
+        other: Páginas
+    attributes:
+      page:
+        menu: Menu
+        name: Nome

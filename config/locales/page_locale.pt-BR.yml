@@ -1,0 +1,14 @@
+pt-BR:
+  activerecord:
+    models:
+      page_locale:
+        one: Página Idioma
+        other: Páginas Idiomas
+    attributes:
+      page_locale:
+        page: Página
+        content_locale: Idioma
+        menu_title: Título no Menu
+        page_title: Título na Página
+        link: Link
+        content: Conteúdo
