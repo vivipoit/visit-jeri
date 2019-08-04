@@ -399,6 +399,10 @@
         1,
         1,
         1,
+        null,
+        1,
+        2,
+        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/admin_users.rb": [
@@ -429,6 +433,9 @@
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/controllers/home_controller.rb": [
         1,
+        1,
+        2,
+        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/mailers/application_mailer.rb": [
@@ -497,6 +504,6 @@
         0
       ]
     },
-    "timestamp": 1564885682
+    "timestamp": 1564930038
   }
 }
