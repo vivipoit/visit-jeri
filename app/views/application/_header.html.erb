@@ -1,0 +1,28 @@
+<section class="menu1 menu cid-r7o5P124fx" once="menu" id="menu1-1">
+  <nav class="navbar navbar-dropdown navbar-expand-lg">
+    <div class="navbar-brand">
+        <span class="navbar-caption-wrap mbr-section-btn">
+          <%= link_to 'VisitJeri', root_path, class: 'navbar-caption text-white display-7' %>
+        </span>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav nav-dropdown mbr-section-btn nav-right" data-app-modern-menu="true">
+        <% @menus.each do |menu| %>
+          <% if menu.pages.size > 0 %>
+            <li class="nav-item dropdown">
+              <a class="nav-link link text-white display-7 dropdown-toggle" href="#" data-toggle="dropdown-submenu">
+                <%= menu.menu_locales.first.name %>
+              </a>
+              <div class="dropdown-menu">
+                <% menu.pages.each do |page| %>
+                  <%= link_to page.page_locales.first.menu_title, page_path(page), class: 'dropdown-item text-black display-4' %>
+                <% end %>
+              </div>
+            </li>
+          <% end %>
+        <% end %>
+      </ul>
+    </div>
+  </nav>
+</section>

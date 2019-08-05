@@ -9,9 +9,9 @@ feature 'admin user creates locale' do
     click_on 'Novo'
 
     fill_in 'Nome', with: 'Português'
-    fill_in 'Código hreflang', with: 'pt-BR'
+    fill_in 'Código hreflang', with: 'pt-br'
     click_on 'Criar Idioma'
 
-    expect(page).to have_content 'Português pt-BR'
+    expect(page).to have_content 'Português pt-br'
   end
 end

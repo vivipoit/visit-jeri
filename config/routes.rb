@@ -8,5 +8,7 @@ Rails.application.routes.draw do
   end
 
   scope 'en-us', :locale => 'en-us' do
+    root to: 'home#index'
+    get 'home/index'
   end
 end

@@ -1,4 +1,4 @@
-pt-BR:
+pt-br:
   devise:
     confirmations:
       confirmed: "Sua conta foi confirmada com sucesso."
