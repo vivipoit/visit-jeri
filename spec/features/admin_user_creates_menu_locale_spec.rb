@@ -3,7 +3,7 @@ require 'rails_helper'
 feature 'admin user creates menu locale' do
   scenario 'sucessfully' do
     create(:menu, name: 'Passeios')
-    create(:content_locale, name: 'en-us')
+    create(:content_locale, name: 'en')
 
     login_as create(:admin_user)
 
@@ -12,10 +12,10 @@ feature 'admin user creates menu locale' do
     click_on 'Novo'
 
     select 'Passeios', from: 'Menu'
-    select 'en-us', from: 'Idioma'
+    select 'en', from: 'Idioma'
     fill_in 'Nome', with: 'Tours'
     click_on 'Criar Menu Idioma'
 
-    expect(page).to have_content 'Passeios en-us Tours'
+    expect(page).to have_content 'Passeios en Tours'
   end
 end

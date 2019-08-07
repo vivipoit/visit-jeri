@@ -3,6 +3,17 @@
     "coverage": {
       "/Users/ViviPoit/Documents/visit-jeri/app/controllers/application_controller.rb": [
         1,
+        1,
+        1,
+        null,
+        1,
+        42,
+        null,
+        null,
+        1,
+        42,
+        42,
+        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/helpers/application_helper.rb": [
@@ -166,6 +177,11 @@
       "/Users/ViviPoit/Documents/visit-jeri/app/models/menu.rb": [
         1,
         1,
+        1,
+        null,
+        1,
+        42,
+        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/page_locales.rb": [
@@ -226,7 +242,7 @@
         1,
         null,
         1,
-        1,
+        3,
         null,
         null
       ],
@@ -307,6 +323,11 @@
         1,
         1,
         1,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/content_locales.rb": [
@@ -399,10 +420,6 @@
         1,
         1,
         1,
-        null,
-        1,
-        2,
-        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/admin_users.rb": [
@@ -433,8 +450,12 @@
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/controllers/home_controller.rb": [
         1,
+        null
+      ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/pages_controller.rb": [
         1,
-        2,
+        1,
+        1,
         null,
         null
       ],
@@ -504,6 +525,6 @@
         0
       ]
     },
-    "timestamp": 1564930038
+    "timestamp": 1565190330
   }
 }

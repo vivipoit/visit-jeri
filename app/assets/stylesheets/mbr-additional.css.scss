@@ -1179,9 +1179,15 @@ body {
     width: calc(100% - 3.334em + 2rem);
   }
 }
+
 .cid-r7o72Bhmed {
   background-image: url( asset_path('jeri-ce-pedra-furada.jpeg') );
 }
+
+.cid-r7o72Bhmed.mbr-page-title {
+  background-image: url( asset_path('jeri-ce-praia.png') );
+}
+
 .cid-r7o72Bhmed .mbr-arrow {
   background: #000000 !important;
   opacity: .7;
@@ -1199,6 +1205,7 @@ body {
   color: #ffffff;
   letter-spacing: normal;
 }
+
 .cid-r7o8gt3azK {
   padding-top: 105px;
   padding-bottom: 30px;
@@ -1266,6 +1273,72 @@ body {
 }
 .cid-r7o8gt3azK .mbr-text,
 .cid-r7o8gt3azK .mbr-section-btn {
+  color: #000000;
+  letter-spacing: normal;
+}
+
+.page-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.page-content .row {
+  flex-direction: row-reverse;
+  -webkit-flex-direction: row-reverse;
+}
+
+.page-content .image-element {
+  display: -webkit-flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 0;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+}
+.page-content .image-element img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+@media (max-width: 991px) {
+  .page-content .image-element {
+    padding-right: 0;
+  }
+}
+.page-content .text-element {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  -webkit-justify-content: center;
+}
+.page-content .mbr-section-subtitle,
+.page-content .mbr-text {
+  color: #878787;
+  letter-spacing: normal;
+}
+.page-content .mbr-text {
+  line-height: 27px;
+  padding: 2.5rem;
+  margin: 0;
+  letter-spacing: normal;
+}
+@media (max-width: 991px) {
+  .page-content .row {
+    flex-direction: column-reverse;
+    align-items: center;
+    -webkit-flex-direction: column-reverse;
+    -webkit-align-items: center;
+  }
+  .page-content .text-element {
+    padding-top: 0;
+  }
+}
+.page-content .mbr-text,
+.page-content .mbr-section-btn {
   color: #000000;
   letter-spacing: normal;
 }

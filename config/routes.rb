@@ -2,13 +2,15 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
-  scope 'pt-br', :locale => 'pt-br' do
+  root to: 'home#index'
+
+  scope 'pt', locale: 'pt' do
     root to: 'home#index'
-    get 'home/index'
+    resources :pages, only: [:show]
   end
 
-  scope 'en-us', :locale => 'en-us' do
+  scope 'en', locale: 'en' do
     root to: 'home#index'
-    get 'home/index'
+    resources :pages, only: [:show]
   end
 end

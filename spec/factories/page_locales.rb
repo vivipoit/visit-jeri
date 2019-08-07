@@ -1,10 +1,10 @@
 FactoryBot.define do
   factory :page_locale do
-    page { nil }
-    content_locale { nil }
-    menu_title { "MyString" }
-    page_title { "MyString" }
-    link { "MyString" }
-    content { "MyText" }
+    menu_title { 'Sunset' }
+    page_title { 'Sunset on the Dune - Jeri CE' }
+    link       { 'sunset-dune-jeri-ce' }
+    content    { 'Deiusmod tempor incididunt ut labore et dolore magna aliqua.' }
+    association :page
+    association :content_locale
   end
 end

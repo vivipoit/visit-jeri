@@ -1,8 +1,13 @@
 class ApplicationController < ActionController::Base
+  before_action :ensure_locale
   before_action :build_navbar
+
+  def ensure_locale
+    params[:locale] = 'pt' if params[:locale].blank?
+  end
 
   def build_navbar
     @content_locale_id = ContentLocale.where(hreflang_code: params[:locale]).first
-    @menus = Menu.build_navbar @content_locale_id
+    @navbar_menus = Menu.build_navbar @content_locale_id
   end
 end

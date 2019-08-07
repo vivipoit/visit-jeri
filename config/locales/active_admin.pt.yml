@@ -1,4 +1,4 @@
-pt-br:
+pt:
   active_admin:
     dashboard: "Painel Administrativo"
     dashboard_welcome:
@@ -47,7 +47,7 @@ pt-br:
       "unset": "Não"
     main_content: "Por favor implemente %{model}#main_content para exibir conteúdo."
     logout: "Sair"
-    powered_by: "Powered by %{active_admin} %{version}"
+    powered_by: "2019 - Vivi Poit - vwpoit@gmail.com"
     sidebars:
       filters: "Filtros"
       search_status: "Buscou"
@@ -133,7 +133,7 @@ pt-br:
     unsupported_browser:
       headline: "O ActiveAdmin não oferece suporte ao Internet Explorer versão 8 ou inferior."
       recommendation: "Nós recomendamos atualizar para a última versão do <a href=\"http://windows.microsoft.com/ie\">Internet Explorer</a>, <a href=\"https://chrome.google.com/\">Google Chrome</a>, ou <a href=\"https://mozilla.org/firefox/\">Firefox</a>."
-      turn_off_compatibility_view: "Se você está usando o IE 9 ou superior, <a href=\"https://support.microsoft.com/pt-br/help/17471\">desligue o \"Modo de Exibição de Compatibilidade\"</a>."
+      turn_off_compatibility_view: "Se você está usando o IE 9 ou superior, <a href=\"https://support.microsoft.com/pt/help/17471\">desligue o \"Modo de Exibição de Compatibilidade\"</a>."
     access_denied:
       message: "Você não tem permissão para realizar o solicitado"
     index_list:

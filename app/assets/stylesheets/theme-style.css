@@ -265,6 +265,18 @@ nav .mbr-section-btn {
   padding-top: 3rem;
   padding-bottom: 3rem; }
 
+.mbr-page-title {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  min-height: 20vh;
+  padding-top: 7rem;
+  padding-bottom: 1rem; }
+
 /*! Map */
 .map {
   height: 25rem;

@@ -2,13 +2,13 @@ require 'rails_helper'
 
 feature 'person sees home menus' do
   scenario 'sucessfully' do
-    pt_br = create(:content_locale, hreflang_code: 'pt-br')
-    en_us = create(:content_locale, hreflang_code: 'en-us')
+    pt = create(:content_locale, hreflang_code: 'pt')
+    en = create(:content_locale, hreflang_code: 'en')
 
-    menu = create(:menu)
+    menu = create(:menu, :with_page)
 
-    create(:menu_locale, menu: menu, content_locale: pt_br, name: 'Passeios')
-    create(:menu_locale, menu: menu, content_locale: en_us, name: 'Tours')
+    create(:menu_locale, menu: menu, content_locale: pt, name: 'Passeios')
+    create(:menu_locale, menu: menu, content_locale: en, name: 'Tours')
 
     visit root_path
 
