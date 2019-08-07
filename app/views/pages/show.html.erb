@@ -1,9 +1,11 @@
+<% @title = @page.page_locales&.first&.menu_title %>
+
 <section class="cid-r7o72Bhmed mbr-page-title">
   <div class="mbr-overlay" style="opacity: 0.4; background-color: rgb(130, 130, 130);">
   </div>
   <div class="container">
     <h1 class="mbr-section-title mbr-fonts-style mbr-white pb-4 display-5">
-      <%= @page.page_locales.first.page_title %>
+      <%= @page.page_locales&.first&.page_title %>
     </h1>
   </div>
 </section>
@@ -12,8 +14,18 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-element mbr-text mbr-fonts-style mbr-lighter display-7">
-        <%= raw(@page.page_locales.first.content) %>
+        <%= raw(@page.page_locales&.first&.content) %>
       </div>
+    </div>
+    <div class="row mbr-text">
+      <% @items.each do |item| %>
+        <div class="col-12 mbr-fonts-style m-0 pb-4 mbr-lighter display-7">
+          <h2 class="mbr-page-item-title mbr-fonts-style display-5">
+            <%= item.item_locales&.first&.list_title %>
+          </h2>
+          <%= item.item_locales&.first&.list_summary %>
+        </div>
+      <% end %>
     </div>
   </div>
 </section>
