@@ -4,6 +4,7 @@ class ApplicationController < ActionController::Base
 
   def ensure_locale
     params[:locale] = 'pt' if params[:locale].blank?
+    I18n.locale = params[:locale]
   end
 
   def build_navbar

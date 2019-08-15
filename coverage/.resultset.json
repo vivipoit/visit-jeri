@@ -7,12 +7,13 @@
         1,
         null,
         1,
-        44,
+        48,
+        48,
         null,
         null,
         1,
-        44,
-        44,
+        48,
+        48,
         null,
         null
       ],
@@ -185,7 +186,7 @@
         1,
         null,
         1,
-        44,
+        48,
         null,
         null
       ],
@@ -453,6 +454,48 @@
         null,
         null
       ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/admin/translations.rb": [
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/ViviPoit/Documents/visit-jeri/app/controllers/home_controller.rb": [
         1,
         null
@@ -473,6 +516,10 @@
       "/Users/ViviPoit/Documents/visit-jeri/app/mailers/application_mailer.rb": [
         0,
         0,
+        0,
+        0
+      ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/models/translation.rb": [
         0,
         0
       ],
@@ -519,6 +566,22 @@
         0,
         0
       ],
+      "/Users/ViviPoit/Documents/visit-jeri/app/models/translation_key.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "/Users/ViviPoit/Documents/visit-jeri/app/jobs/application_job.rb": [
         0,
         0
@@ -536,6 +599,6 @@
         0
       ]
     },
-    "timestamp": 1565194454
+    "timestamp": 1565903448
   }
 }

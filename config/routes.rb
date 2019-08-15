@@ -3,14 +3,6 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
   root to: 'home#index'
-
-  scope 'pt', locale: 'pt' do
-    root to: 'home#index'
-    resources :pages, only: [:show]
-  end
-
-  scope 'en', locale: 'en' do
-    root to: 'home#index'
-    resources :pages, only: [:show]
-  end
+  get '/:locale/:id' => 'pages#show', as: :page
+  get '/:locale' => 'home#index'
 end

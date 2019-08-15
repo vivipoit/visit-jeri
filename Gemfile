@@ -14,6 +14,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'activeadmin'
 gem 'devise'
 gem 'ckeditor'
+gem 'i18n-active_record', github: 'svenfuchs/i18n-active_record', require: 'i18n/active_record'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
