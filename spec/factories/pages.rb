@@ -3,9 +3,13 @@ FactoryBot.define do
     name { 'Duna do Pôr do Sol' }
     association :menu
 
-    trait :with_locale do
+    trait :with_locales do
       after(:create) do |page|
-        create(:page_locale, page: page)
+        pt = ContentLocale.find_or_create_by(hreflang_code: 'pt')
+        en = ContentLocale.find_or_create_by(hreflang_code: 'en')
+
+        create(:page_locale, page: page, content_locale: pt)
+        create(:page_locale, page: page, content_locale: en)
       end
     end
   end

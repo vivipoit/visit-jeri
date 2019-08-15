@@ -244,11 +244,18 @@
         1,
         null,
         1,
+        1,
+        null,
+        1,
+        3,
+        null,
         null,
         1,
         null,
         1,
-        5,
+        null,
+        1,
+        6,
         null,
         null
       ],
@@ -330,10 +337,6 @@
         1,
         1,
         1,
-        null,
-        1,
-        3,
-        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/content_locales.rb": [
@@ -500,7 +503,7 @@
         1,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/pages_controller.rb": [
+      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/page_locales_controller.rb": [
         1,
         1,
         3,
@@ -599,6 +602,6 @@
         0
       ]
     },
-    "timestamp": 1565903448
+    "timestamp": 1565906848
   }
 }

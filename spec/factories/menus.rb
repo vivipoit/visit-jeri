@@ -4,7 +4,7 @@ FactoryBot.define do
 
     trait :with_page do
       after(:create) do |menu|
-        create(:page, :with_locale, menu: menu)
+        create(:page, :with_locales, menu: menu)
       end
     end
   end

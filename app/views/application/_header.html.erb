@@ -16,7 +16,7 @@
               </a>
               <div class="dropdown-menu">
                 <% menu.pages.each do |page| %>
-                  <%= link_to page.page_locales.first.menu_title, page_path(locale: params[:locale], id: page.id), class: 'dropdown-item text-black display-4' %>
+                  <%= link_to page.page_locales.first.menu_title, page_locale_path(locale: params[:locale], id: page.page_locales.first.link), class: 'dropdown-item text-black display-4' %>
                 <% end %>
               </div>
             </li>

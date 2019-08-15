@@ -8,7 +8,7 @@ feature 'person sees page with items' do
     item = create(:item, page: page_locale.page)
     create(:item_locale, item: item, content_locale: locale, list_title: 'ABC', list_summary: 'DEF')
 
-    visit "/en/#{page_locale.page.id}"
+    visit '/en/page'
 
     expect(page).to have_css 'h2', text: 'ABC'
     expect(page).to have_content 'DEF'
@@ -23,7 +23,7 @@ feature 'person sees page with items' do
     create(:item_locale, item: item, content_locale: wrong_locale, list_title: 'ABC', list_summary: 'DEF')
     create(:item_locale, item: item, content_locale: correct_locale, list_title: 'GHI', list_summary: 'JKL')
 
-    visit "/en/#{page_locale.page.id}"
+    visit '/en/page'
 
     expect(page).to have_content 'GHI'
     expect(page).to have_content 'JKL'
