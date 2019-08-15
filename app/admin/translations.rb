@@ -1,4 +1,5 @@
 ActiveAdmin.register Translation, as: 'I18n Translation' do
+  menu priority: 2
   permit_params :key, :locale, :value
 
   index do

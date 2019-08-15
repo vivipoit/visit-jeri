@@ -1,4 +1,5 @@
 ActiveAdmin.register ItemLocale do
+  menu priority: 15
   permit_params :item_id, :content_locale_id, :list_title, :list_summary, :link, :page_title, :page_content
 
   index do

@@ -7,13 +7,13 @@
         1,
         null,
         1,
-        48,
-        48,
+        49,
+        49,
         null,
         null,
         1,
-        48,
-        48,
+        49,
+        49,
         null,
         null
       ],
@@ -33,6 +33,7 @@
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/items.rb": [
+        1,
         1,
         1,
         null,
@@ -82,6 +83,7 @@
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/item_locales.rb": [
+        1,
         1,
         1,
         null,
@@ -147,6 +149,7 @@
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/menus.rb": [
         1,
         1,
+        1,
         null,
         1,
         1,
@@ -186,11 +189,12 @@
         1,
         null,
         1,
-        48,
+        49,
         null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/page_locales.rb": [
+        1,
         1,
         1,
         null,
@@ -261,13 +265,13 @@
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/dashboard.rb": [
         1,
-        30,
+        31,
         null,
-        17,
-        8,
-        8,
-        8,
-        8,
+        19,
+        9,
+        9,
+        9,
+        9,
         null,
         null,
         null,
@@ -294,6 +298,7 @@
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/pages.rb": [
+        1,
         1,
         1,
         null,
@@ -342,6 +347,7 @@
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/content_locales.rb": [
         1,
         1,
+        1,
         null,
         1,
         1,
@@ -384,6 +390,7 @@
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/menu_locales.rb": [
+        1,
         1,
         1,
         null,
@@ -434,6 +441,7 @@
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/admin_users.rb": [
         1,
         1,
+        1,
         null,
         1,
         0,
@@ -458,6 +466,7 @@
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/admin/translations.rb": [
+        1,
         1,
         1,
         null,
@@ -602,6 +611,6 @@
         0
       ]
     },
-    "timestamp": 1565906848
+    "timestamp": 1565908554
   }
 }

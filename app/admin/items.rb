@@ -1,4 +1,5 @@
 ActiveAdmin.register Item do
+  menu priority: 14
   permit_params :page_id, :name
 
   index do

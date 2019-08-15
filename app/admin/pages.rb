@@ -1,4 +1,5 @@
 ActiveAdmin.register Page do
+  menu priority: 9
   permit_params :menu_id, :name
 
   index do
