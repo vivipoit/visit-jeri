@@ -28,8 +28,13 @@ ActiveAdmin.register Page do
       row :name
       row :images do |page|
         page.images.each do |img|
-          span do
-            image_tag img, style: 'height:20vh;'
+          div do
+            span do
+              image_tag img, style: 'height:20vh;'
+            end
+            span do
+              link_to "EXCLUIR #{img.filename}", delete_page_image_admin_page_path(img.id), method: :delete, data: { confirm: 'Tem certeza?' }
+            end
           end
         end
       end
