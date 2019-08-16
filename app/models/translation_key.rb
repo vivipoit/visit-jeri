@@ -4,6 +4,7 @@ class TranslationKey
       'home_small_print',
       'home_main_title',
       'more_info',
+      'from_the_people_who_have_come',
       'contact_us',
       'eager_to_help',
       'thanks',
