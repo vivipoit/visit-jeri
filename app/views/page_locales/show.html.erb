@@ -17,6 +17,13 @@
         <%= raw(@page_locale.content) %>
       </div>
     </div>
+
+    <div class="page-images text-center">
+      <% @page_locale.page.images.each do |img| %>
+        <%= image_tag img %>
+      <% end %>
+    </div>
+
     <div class="row mbr-text">
       <% @items.each do |item| %>
         <div class="col-12 mbr-fonts-style m-0 pb-4 mbr-lighter display-7">

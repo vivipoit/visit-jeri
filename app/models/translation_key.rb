@@ -3,6 +3,7 @@ class TranslationKey
     [
       'home_small_print',
       'home_main_title',
+      'more_info',
       'contact_us',
       'eager_to_help',
       'thanks',

@@ -31,6 +31,10 @@ ActiveAdmin.register PageLocale do
   end
 
   controller do
+    def find_resource
+      scoped_collection.friendly.find(params[:id])
+    end
+    
     def create
       super do |format|
         redirect_to collection_url and return if resource.valid?

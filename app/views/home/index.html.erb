@@ -18,78 +18,32 @@
     </div>
 </section>
 
-<section class="features1 cid-r7o8gt3azK" id="features1-4">
-
+<% @page_locales.each_with_index do |page_locale, index| %>
+  <section class="features1 <%= index.even? ? 'cid-r7o8gt3azK' : 'cid-r7o8w9BZe1' %>" id="features1-4">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-6 image-element">
-                <div class="img-wrap" style="height: 100%; width: 100%;">
-                    <img src="assets/images/ravali-yan-96009-unsplash-1110x740.jpg" alt="" title="">
-                </div>
-            </div>
-            <div class="col-md-10 col-lg-6 text-element">
-
-
-                <h2 class="mbr-section-title mbr-fonts-style align-center display-5">
-                    Safety First</h2>
-                <p class="mbr-text mbr-fonts-style mbr-lighter align-center display-7">Flights are possible at any time of the year, but only under safe weather conditions. No flights to best Bootstrap templates allowed when it's raining heavily. We carefully check the wind speed. If there is something wrong with the weather, we'll refund you the full cost of tickets. We can set another flight time if you're interested.<br></p>
-                <div class="mbr-section-btn align-center">
-                    <a class="btn btn-lg btn-primary display-4" href="#">READ MORE</a>
-                </div>
-            </div>
+      <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-6 image-element">
+          <div class="img-wrap" style="height: 100%; width: 100%;">
+            <%= image_tag page_locale.page.images.first if page_locale.page.images.attached? %>
+          </div>
         </div>
-    </div>
-</section>
-
-<section class="features1 cid-r7o8w9BZe1" id="features1-8">
-
-
-
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-6 image-element">
-                <div class="img-wrap" style="height: 100%; width: 100%;">
-                    <img src="assets/images/ian-dooley-407846-unsplash-1110x740.jpg" alt="" title="">
-                </div>
-            </div>
-            <div class="col-md-10 col-lg-6 text-element">
-
-
-                <h2 class="mbr-section-title mbr-fonts-style align-center display-5">
-                    More Fun</h2>
-                <p class="mbr-text mbr-fonts-style mbr-lighter align-center display-7">
-                    Rent a full basket for an hour. Only our instructor will be with you in the basket. Also, we can offer some nice supplements. If you want to make your date special, we can offer to you some champagne or flowers. Check our prices! </p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-lg btn-primary display-4" href="#">LEARN MORE</a></div>
-            </div>
+        <div class="col-md-10 col-lg-6 text-element">
+          <h2 class="mbr-section-title mbr-fonts-style align-center display-5">
+            <%= page_locale.menu_title %>
+          </h2>
+          <p class="mbr-text mbr-fonts-style mbr-lighter align-center display-7">
+            <%= strip_tags page_locale.content&.first(250) %>...
+          </p>
+          <div class="mbr-section-btn align-center">
+            <%= link_to (t 'more_info'), page_locale_path(locale: params[:locale], id: page_locale.link), class: 'btn btn-lg btn-primary display-4'%>
+          </div>
         </div>
+      </div>
     </div>
-</section>
-
-<section class="features1 cid-r7octyzPse" id="features1-b">
-
+  </section>
+<% end %>
 
 
-
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-6 image-element">
-                <div class="img-wrap" style="height: 100%; width: 100%;">
-                    <img src="assets/images/rich-martello-443272-unsplash-1110x714.jpg" alt="" title="">
-                </div>
-            </div>
-            <div class="col-md-10 col-lg-6 text-element">
-
-
-                <h2 class="mbr-section-title mbr-fonts-style align-center display-5">
-                    Friends are Welcomed</h2>
-                <p class="mbr-text mbr-fonts-style mbr-lighter align-center display-7">
-                    We offer a big discount for the best Bootstrap templates if you are a group of four people. If you're a family, you can also use this discount. Please note that our baskets are limited: four is the maximal amount of people in the basket during one flight. Our experienced instructor will be in the basket.</p>
-                <div class="mbr-section-btn align-center"><a class="btn btn-lg btn-primary display-4" href="#">GET TICKETS</a></div>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="testimonials1 cid-r7oenkEURR" id="testimonials1-c">
 

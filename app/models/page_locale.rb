@@ -9,6 +9,10 @@ class PageLocale < ApplicationRecord
     includes(:page).where(content_locale_id: content_locale_id, link: link).first
   }
 
+  scope :home_info, -> (content_locale_id) {
+    includes(:page).where(content_locale_id: content_locale_id).order(updated_at: :desc).limit(3)
+  }
+
   before_save :parameterize_link
 
   private
