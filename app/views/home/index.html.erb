@@ -100,77 +100,30 @@
 </section>
 
 <section class="pricing-table1 cid-r7oeqXiEpW" id="pricing-table1-d">
-
-
-
-
-    <div class="container">
-
-
-
-
-        <h2 class="mbr-section-title main-title mbr-fonts-style mbr-white align-center display-5 pb-5">
-            Tickets</h2>
-
-        <div class="row justify-content-center">
-            <div class="table col-md-6 col-lg-4 first-row-table">
-                <div class="table-wrapper">
-                    <div class="table-head-wrapper mbr-white">
-                        <span class="table-heading mbr-section-title mbr-fonts-style mbr-bold display-7">
-                            Single</span>
-                        <div class="table-purchase">
-                            <span class="pricing-value mbr-fonts-style display-5">
-                                $ 40</span>
-
-                        </div>
-                    </div>
-                    <ul class="list-group mbr-fonts-style mbr-lighter display-7">
-                        <li>One place in a basket</li>
-                        <li>Equipment rental</li><li>Training and instructions<br></li>
-                    </ul>
-                    <div class="mbr-section-btn pt-4 align-center"><a href="#" class="btn btn-md btn-primary display-4">BUY TICKET</a></div>
-                </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <% @item_locales.each do |item_locale| %>
+        <div class="table col-12 col-md-4 first-row-table">
+          <div class="table-wrapper">
+            <div class="table-head-wrapper mbr-white">
+              <span class="table-heading mbr-section-title mbr-fonts-style mbr-bold display-7">
+                <%= item_locale.item.page.page_locales.first.menu_title %>
+              </span>
+              <div class="table-purchase">
+                <span class="pricing-value mbr-fonts-style display-5">
+                  <%= item_locale.list_title %>
+                </span>
+              </div>
             </div>
-
-            <div class="table col-md-6 col-lg-4 first-row-table">
-                <div class="table-wrapper">
-                    <div class="table-head-wrapper mbr-white">
-                        <span class="table-heading mbr-section-title mbr-fonts-style mbr-bold display-7">For Children (6-14 years old)</span>
-                        <div class="table-purchase">
-                            <span class="pricing-value mbr-fonts-style display-5">
-                                $ 20</span>
-
-                        </div>
-                    </div>
-                    <ul class="list-group mbr-fonts-style mbr-lighter display-7">
-                        <li>One place in a basket
-</li><li>Equipment rental
-</li><li>Training and instructions</li>
-                    </ul>
-                    <div class="mbr-section-btn pt-4 align-center"><a href="#" class="btn btn-md btn-primary display-4">BUY TICKET</a></div>
-                </div>
+            <ul class="list-group mbr-fonts-style mbr-lighter display-7">
+              <li><%= item_locale.list_summary %></li>
+            </ul>
+            <div class="mbr-section-btn pt-4 align-center">
+              <%= link_to (t 'more_info'), item_locale_path(locale: params[:locale], id: item_locale.link), class: 'btn btn-lg btn-primary display-4'%>
             </div>
-
-            <div class="table col-md-6 col-lg-4 last-table">
-                <div class="table-wrapper">
-                    <div class="table-head-wrapper mbr-white">
-                        <span class="table-heading mbr-section-title mbr-fonts-style mbr-bold display-7">Group (4 persons)</span>
-                        <div class="table-purchase">
-                            <span class="pricing-value mbr-fonts-style display-5">
-                                $ 150</span>
-
-                        </div>
-                    </div>
-                    <ul class="list-group mbr-fonts-style mbr-lighter display-7">
-                        <li>Perfect for couples and families<br></li>
-                        <li>Equipment rental
-</li><li>Training and instructions</li>
-                    </ul>
-                    <div class="mbr-section-btn pt-4 align-center"><a href="#" class="btn btn-md btn-primary display-4">BUY TICKET</a></div>
-                </div>
-            </div>
-
-
+          </div>
         </div>
+      <% end %>
     </div>
+  </div>
 </section>

@@ -30,7 +30,8 @@
           <h2 class="mbr-page-item-title mbr-fonts-style display-5">
             <%= item.item_locales&.first&.list_title %>
           </h2>
-          <%= item.item_locales&.first&.list_summary %>
+          <%= item.item_locales&.first&.list_summary %><br/>
+          <%= link_to (t 'more_info'), item_locale_path(locale: params[:locale], id: item.item_locales&.first&.link) %>
         </div>
       <% end %>
     </div>
