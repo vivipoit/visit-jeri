@@ -12,5 +12,3 @@ test:
 production:
   <<: *default
   database: visit-jeri_production
-  username: visit-jeri
-  password: <%= ENV['VISIT-JERI_DATABASE_PASSWORD'] %>
