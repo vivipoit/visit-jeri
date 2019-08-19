@@ -6,9 +6,10 @@ default: &default
 development:
   <<: *default
   database: visit-jeri_development
+
 test:
   <<: *default
   database: visit-jeri_test
+
 production:
-  <<: *default
-  database: visit-jeri_production
+  url: <%= ENV['DATABASE_URL'] %>
