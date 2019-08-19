@@ -1,0 +1,11 @@
+pt:
+  activerecord:
+    models:
+      general_translation:
+        one: Tradução Geral
+        other: Traduções Gerais
+    attributes:
+      general_translation:
+        locale: Idioma
+        key: Informação
+        value: Tradução

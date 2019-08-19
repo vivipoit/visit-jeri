@@ -1,6 +1,0 @@
-pt:
-  activerecord:
-    models:
-      i18n_translation:
-        one: Tradução Geral
-        other: Traduções Gerais

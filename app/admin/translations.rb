@@ -1,4 +1,4 @@
-ActiveAdmin.register Translation, as: 'I18n Translation' do
+ActiveAdmin.register GeneralTranslation do
   menu priority: 2
   permit_params :key, :locale, :value
 
