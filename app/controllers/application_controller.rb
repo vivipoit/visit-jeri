@@ -10,5 +10,6 @@ class ApplicationController < ActionController::Base
   def build_navbar
     @content_locale_id = ContentLocale.where(hreflang_code: params[:locale]).first
     @navbar_menus = Menu.build_navbar @content_locale_id
+    @language_options = ContentLocale.all.order(:name)
   end
 end
