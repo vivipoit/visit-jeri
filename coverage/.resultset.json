@@ -612,6 +612,13 @@
       "/Users/ViviPoit/Documents/visit-jeri/app/models/general_translation.rb": [
         1,
         1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        0,
+        null,
         null
       ],
       "/Users/ViviPoit/Documents/visit-jeri/app/controllers/home_controller.rb": [
@@ -687,6 +694,6 @@
         0
       ]
     },
-    "timestamp": 1566310940
+    "timestamp": 1566312252
   }
 }
