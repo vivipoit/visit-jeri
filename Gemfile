@@ -17,6 +17,10 @@ gem 'ckeditor'
 gem 'i18n-active_record', github: 'svenfuchs/i18n-active_record', require: 'i18n/active_record'
 gem 'friendly_id'
 
+group :production do
+  gem 'aws-sdk-s3', require: false
+end
+
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'rspec-rails'
