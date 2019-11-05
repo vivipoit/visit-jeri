@@ -22,5 +22,5 @@ Live app at https://visit-jeri.herokuapp.com/
 
 
 **Template**
-Desired: https://www.templatemonster.com/pt/demo/79863.html
-Used: https://mobirise.com/bootstrap-template/best-bootstrap-templates/#
+* Desired: https://www.templatemonster.com/pt/demo/79863.html
+* Used: https://mobirise.com/bootstrap-template/best-bootstrap-templates/#
