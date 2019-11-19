@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class PageLocalesController < ApplicationController
   def show
     @page_locale = PageLocale.show_info @content_locale_id, params[:id]

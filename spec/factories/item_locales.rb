@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 FactoryBot.define do
   factory :item_locale do
     list_title   { 'Compartilhado 4x4' }

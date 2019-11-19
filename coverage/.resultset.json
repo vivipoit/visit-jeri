@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/application_controller.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/controllers/application_controller.rb": [
         1,
         1,
         1,
@@ -18,22 +18,22 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/helpers/application_helper.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/admin_user.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/admin_user.rb": [
         1,
         1,
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/application_record.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/application_record.rb": [
         1,
         1,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/items.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/items.rb": [
         1,
         1,
         1,
@@ -73,7 +73,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/item.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/item.rb": [
         1,
         1,
         1,
@@ -83,7 +83,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/item_locales.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/item_locales.rb": [
         1,
         1,
         1,
@@ -133,7 +133,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/item_locale.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/item_locale.rb": [
         1,
         1,
         1,
@@ -155,7 +155,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/menus.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/menus.rb": [
         1,
         1,
         1,
@@ -192,7 +192,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/menu.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/menu.rb": [
         1,
         1,
         1,
@@ -202,7 +202,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/page_locales.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/page_locales.rb": [
         1,
         1,
         1,
@@ -255,7 +255,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/page_locale.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/page_locale.rb": [
         1,
         1,
         1,
@@ -280,7 +280,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/dashboard.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/dashboard.rb": [
         1,
         31,
         null,
@@ -365,7 +365,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/pages.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/pages.rb": [
         1,
         1,
         1,
@@ -436,7 +436,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/page.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/page.rb": [
         1,
         1,
         1,
@@ -445,7 +445,7 @@
         1,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/content_locales.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/content_locales.rb": [
         1,
         1,
         1,
@@ -461,54 +461,6 @@
         1,
         1,
         null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        null,
-        1,
-        0,
-        0,
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/content_locale.rb": [
-        1,
-        1,
-        null
-      ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/menu_locales.rb": [
-        1,
-        1,
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null,
-        1,
-        1,
-        1,
-        null,
-        1,
         1,
         1,
         1,
@@ -533,51 +485,23 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/menu_locale.rb": [
-        1,
+      "/Users/vivipoit/Projects/visit-jeri/app/models/content_locale.rb": [
         1,
         1,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/admin_users.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/menu_locales.rb": [
         1,
         1,
         1,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        null,
-        null,
-        1,
-        1,
-        null,
-        1,
-        0,
-        0,
-        0,
-        0,
-        null,
-        0,
-        null,
-        null,
-        null
-      ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/admin/translations.rb": [
         1,
         1,
         1,
-        null,
         1,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         1,
@@ -585,18 +509,18 @@
         1,
         null,
         1,
-        0,
-        0,
-        0,
-        0,
+        1,
+        1,
+        1,
+        1,
         null,
-        0,
+        1,
         null,
         null,
         1,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null,
         null,
@@ -609,7 +533,83 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/general_translation.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/menu_locale.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/admin_users.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/vivipoit/Projects/visit-jeri/app/admin/translations.rb": [
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        1,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/vivipoit/Projects/visit-jeri/app/models/general_translation.rb": [
         1,
         1,
         null,
@@ -621,7 +621,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/home_controller.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/controllers/home_controller.rb": [
         1,
         1,
         8,
@@ -629,7 +629,7 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/page_locales_controller.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/controllers/page_locales_controller.rb": [
         1,
         1,
         3,
@@ -642,13 +642,13 @@
         null,
         null
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/mailers/application_mailer.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/mailers/application_mailer.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/models/translation_key.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/models/translation_key.rb": [
         0,
         0,
         0,
@@ -666,11 +666,11 @@
         0,
         0
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/jobs/application_job.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/jobs/application_job.rb": [
         0,
         0
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/controllers/item_locales_controller.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/controllers/item_locales_controller.rb": [
         0,
         0,
         0,
@@ -681,19 +681,19 @@
         0,
         0
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/channels/application_cable/connection.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/channels/application_cable/connection.rb": [
         0,
         0,
         0,
         0
       ],
-      "/Users/ViviPoit/Documents/visit-jeri/app/channels/application_cable/channel.rb": [
+      "/Users/vivipoit/Projects/visit-jeri/app/channels/application_cable/channel.rb": [
         0,
         0,
         0,
         0
       ]
     },
-    "timestamp": 1566312252
+    "timestamp": 1574155703
   }
 }

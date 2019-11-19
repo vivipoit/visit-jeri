@@ -1,3 +1,4 @@
+# frozen_string_literal: true
 class Item < ApplicationRecord
   belongs_to :page
   has_many :item_locales
