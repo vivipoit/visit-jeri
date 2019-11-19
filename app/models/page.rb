@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class Page < ApplicationRecord
   belongs_to :menu
   has_many :page_locales

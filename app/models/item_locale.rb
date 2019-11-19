@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class ItemLocale < ApplicationRecord
   belongs_to :item
   belongs_to :content_locale

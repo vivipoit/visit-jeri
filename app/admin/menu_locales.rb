@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 ActiveAdmin.register MenuLocale do
   menu priority: 6
   permit_params :menu_id, :content_locale_id, :name

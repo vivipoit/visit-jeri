@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class PageLocale < ApplicationRecord
   belongs_to :page
   belongs_to :content_locale

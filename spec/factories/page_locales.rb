@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 FactoryBot.define do
   factory :page_locale do
     menu_title { 'Sunset' }

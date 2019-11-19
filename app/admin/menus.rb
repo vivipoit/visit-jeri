@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 ActiveAdmin.register Menu do
   menu priority: 5
   permit_params :name

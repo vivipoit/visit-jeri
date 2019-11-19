@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class ApplicationController < ActionController::Base
   before_action :ensure_locale
   before_action :build_navbar

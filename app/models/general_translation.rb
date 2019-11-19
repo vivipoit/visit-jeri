@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class GeneralTranslation < ApplicationRecord
   self.table_name = 'translations'
 

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 class ItemLocalesController < ApplicationController
   def show
     @item_locale = ItemLocale.show_info @content_locale_id, params[:id]

@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 ActiveAdmin.register GeneralTranslation do
   menu priority: 2
   permit_params :key, :locale, :value
