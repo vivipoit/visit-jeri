@@ -19,6 +19,9 @@ Live app at https://visit-jeri.herokuapp.com/
 **Performance**
 * `bullet` to avoid those sneaky +1 queries!
 
+**Code Quality**
+* `rubocop` to avoid code stinks and complexities
+
 
 
 **Template**
