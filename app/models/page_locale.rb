@@ -7,11 +7,11 @@ class PageLocale < ApplicationRecord
   extend FriendlyId
   friendly_id :link
 
-  scope :show_info, -> (content_locale_id, link) {
+  scope :show_info, ->(content_locale_id, link) {
     includes(:page).where(content_locale_id: content_locale_id, link: link).first
   }
 
-  scope :home_info, -> (content_locale_id) {
+  scope :home_info, ->(content_locale_id) {
     includes(:page).where(content_locale_id: content_locale_id).order(updated_at: :desc).limit(3)
   }
 
