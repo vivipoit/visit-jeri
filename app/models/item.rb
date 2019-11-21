@@ -5,6 +5,6 @@ class Item < ApplicationRecord
   has_many :item_locales
 
   scope :for_this_locale, -> (content_locale_id) {
-    includes(:item_locales).where(item_locales: {content_locale_id: content_locale_id}).references(:item_locales)
+    includes(:item_locales).where(item_locales: { content_locale_id: content_locale_id }).references(:item_locales)
   }
 end
