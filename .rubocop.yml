@@ -17,6 +17,7 @@ AllCops:
 Metrics/BlockLength:
   Exclude:
     - 'spec/**/*'
+    - 'app/admin/**/*'
 
 Metrics/LineLength:
   Enabled: false
