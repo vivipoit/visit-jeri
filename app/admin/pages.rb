@@ -5,9 +5,9 @@ ActiveAdmin.register Page do
   permit_params :menu_id, :name, images: []
 
   member_action :delete_page_image, method: :delete do
-   @img = ActiveStorage::Attachment.find(params[:id])
-   @img.purge_later
-   redirect_back(fallback_location: edit_admin_page_path)
+    @img = ActiveStorage::Attachment.find(params[:id])
+    @img.purge_later
+    redirect_back(fallback_location: edit_admin_page_path)
   end
 
   index do
@@ -16,7 +16,7 @@ ActiveAdmin.register Page do
     column :menu
     column :name
     column 'Imagens' do |page|
-      page.images.map(&:filename).join('<br/>').html_safe
+      sanitize page.images.map(&:filename).join('<br/>')
     end
     actions
   end
@@ -56,16 +56,15 @@ ActiveAdmin.register Page do
 
   controller do
     def create
-      super do |format|
+      super do
         redirect_to(collection_url) && return if resource.valid?
       end
     end
 
     def update
-      super do |format|
+      super do
         redirect_to(collection_url) && return if resource.valid?
       end
     end
   end
-
 end
