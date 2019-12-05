@@ -1,8 +1,6 @@
 # Project
 **A simple Rails 5.2 app that was built to create a simple destination website for Jericoacoara CE Brazil.**
 
-Live app at https://visit-jeri.herokuapp.com/
-
 # Gems Used
 * `activeadmin` for easy content management
 * `devise` for managing access to content management
