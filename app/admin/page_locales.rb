@@ -36,18 +36,17 @@ ActiveAdmin.register PageLocale do
     def find_resource
       scoped_collection.friendly.find(params[:id])
     end
-    
+
     def create
-      super do |format|
+      super do
         redirect_to(collection_url) && return if resource.valid?
       end
     end
 
     def update
-      super do |format|
+      super do
         redirect_to(collection_url) && return if resource.valid?
       end
     end
   end
-
 end

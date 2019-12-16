@@ -80,7 +80,6 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "/Users/vivipoit/Projects/visit-jeri/app/models/item.rb": [
@@ -92,6 +91,8 @@
         null,
         1,
         3,
+        null,
+        null,
         null,
         null
       ],
@@ -141,7 +142,6 @@
         1,
         0,
         0,
-        null,
         null,
         null,
         null,
@@ -208,7 +208,6 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "/Users/vivipoit/Projects/visit-jeri/app/models/menu.rb": [
@@ -220,6 +219,11 @@
         null,
         1,
         51,
+        null,
+        null,
+        null,
+        null,
+        null,
         null,
         null
       ],
@@ -272,7 +276,6 @@
         1,
         0,
         0,
-        null,
         null,
         null,
         null,
@@ -379,7 +382,6 @@
         null,
         null,
         1,
-        null,
         null,
         null,
         null,
@@ -509,7 +511,6 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "/Users/vivipoit/Projects/visit-jeri/app/models/content_locale.rb": [
@@ -561,7 +562,6 @@
         null,
         null,
         null,
-        null,
         null
       ],
       "/Users/vivipoit/Projects/visit-jeri/app/models/menu_locale.rb": [
@@ -597,7 +597,6 @@
         0,
         null,
         0,
-        null,
         null,
         null
       ],
@@ -733,9 +732,8 @@
         0,
         0,
         0,
+        0,
         null,
-        0,
-        0,
         0,
         0,
         0
@@ -757,6 +755,6 @@
         0
       ]
     },
-    "timestamp": 1574737424
+    "timestamp": 1576470970
   }
 }

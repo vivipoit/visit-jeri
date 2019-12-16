@@ -3,9 +3,8 @@
 class ItemLocalesController < ApplicationController
   def show
     @item_locale = ItemLocale.show_info @content_locale_id, params[:id]
+    return if @item_locale.class == ItemLocale
 
-    unless @item_locale.class == ItemLocale
-      redirect_to root_path, status: :not_found
-    end
+    redirect_to root_path, status: :not_found
   end
 end

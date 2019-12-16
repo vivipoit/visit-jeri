@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 class ContentLocale < ApplicationRecord
-  has_many :menu_locales
+  has_many :menu_locales, dependent: :destroy
 end
