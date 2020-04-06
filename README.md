@@ -1,5 +1,5 @@
 # Project
-**A simple Rails 5.2 app that was built to create a simple destination website for Jericoacoara CE Brazil.**
+**A Rails 5.2 app that serves as a website for Jeri CE Brazil and has dynamic internationalization features.**
 
 # Gems Used
 * `activeadmin` for easy content management
